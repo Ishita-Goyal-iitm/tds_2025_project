@@ -29,7 +29,7 @@ def search (request: Request):
         for values in parameter_values:
             parameters.append ({
                 "name": parameter_name,
-                "value": values,
+                "value": values
             })
         
     print(parameters)        
